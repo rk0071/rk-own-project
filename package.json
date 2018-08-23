@@ -1,0 +1,19 @@
+{
+  "name": "good",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bk.js"
+  },
+  "keywords": [
+    "'hey'"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
+  }
+}
