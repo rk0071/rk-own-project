@@ -3,12 +3,9 @@ var hbs = require('hbs');
 const port = process.env.PORT || 3000;
 var app = express();
 app.set('vgvg','hbs');
-hbs.registerPartials(__dirname + '/gur/toor' );
+hbs.registerPartials(__dirname + '/views/partials' );
 //app.use(express.static(__dirname + '/tool'));
-hbs.registerHelper('gettono', () =>
-{
-  return 'hi';
-} )
+
 app.get('/about',(req,res) => {
   res.render('er.hbs',
     {
